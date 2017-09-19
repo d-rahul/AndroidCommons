@@ -1,4 +1,4 @@
-package com.booking.t3.views;
+package com.myapp.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.support.v7.widget.AppCompatEditText;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.booking.t3.R;
+import com.myapp.R;
 
 
 public class AppEditText extends AppCompatEditText {
@@ -36,22 +36,22 @@ public class AppEditText extends AppCompatEditText {
             a.recycle();
             switch (Integer.parseInt(str)) {
                 case 1:
-                    str = "Hind-Regular.ttf";
+                    str = "fonts/Hind-Regular.ttf";
                     break;
                 case 2:
-                    str = "Hind-Light.ttf";
+                    str = "fonts/Hind-Light.ttf";
                     break;
                 case 3:
-                    str = "Hind-Bold.ttf";
+                    str = "fonts/Hind-Bold.ttf";
                     break;
                 case 4:
-                    str = "Hind-Semibold.ttf";
+                    str = "fonts/Hind-Semibold.ttf";
                     break;
                 case 5:
-                    str = "Hind-Medium.ttf";
+                    str = "fonts/Hind-Medium.ttf";
                     break;
                 default:
-                    str = "Hind-Regular.ttf";
+                    str = "fonts/Hind-Regular.ttf";
                     break;
             }
 
