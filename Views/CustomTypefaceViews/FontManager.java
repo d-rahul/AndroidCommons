@@ -1,4 +1,4 @@
-package com.booking.t3.views;
+package com.myapp.views;
 
 import android.content.Context;
 import android.graphics.Typeface;
