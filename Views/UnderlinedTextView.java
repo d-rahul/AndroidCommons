@@ -12,6 +12,15 @@ import android.util.AttributeSet;
 
 import com.test.R;
 
+/**
+* Keep this in attr.xml file
+*<declare-styleable name="UnderlinedTextView">
+*        <attr name="underlineWidth" format="dimension" />
+*        <attr name="underlineColor" format="color" />
+*    </declare-styleable>
+*
+*/
+
 
 public class UnderlinedTextView extends AppCompatTextView {
 
