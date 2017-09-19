@@ -1,15 +1,11 @@
-package com.booking.t3.views;
+package com.myapp.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.booking.t3.R;
-
-/**
- * Created by hb on 11/8/17.
- */
+import com.myapp.R;
 
 public class AppRadioButton extends android.support.v7.widget.AppCompatRadioButton {
 
@@ -36,22 +32,22 @@ public class AppRadioButton extends android.support.v7.widget.AppCompatRadioButt
             str = TextUtils.isEmpty(str) ? "1" : str;
             switch (Integer.parseInt(str)) {
                 case 1:
-                    str = "Hind-Regular.ttf";
+                    str = "fonts/Hind-Regular.ttf";
                     break;
                 case 2:
-                    str = "Hind-Light.ttf";
+                    str = "fonts/Hind-Light.ttf";
                     break;
                 case 3:
-                    str = "Hind-Bold.ttf";
+                    str = "fonts/Hind-Bold.ttf";
                     break;
                 case 4:
-                    str = "Hind-Semibold.ttf";
+                    str = "fonts/Hind-Semibold.ttf";
                     break;
                 case 5:
-                    str = "Hind-Medium.ttf";
+                    str = "fonts/Hind-Medium.ttf";
                     break;
                 default:
-                    str = "Hind-Regular.ttf";
+                    str = "fonts/Hind-Regular.ttf";
                     break;
             }
             setTypeface(FontManager.getInstance(getContext()).loadFont(str));
