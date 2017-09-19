@@ -15,6 +15,15 @@ import com.test.R;
  * @version 1.0
  * 
  */
+
+/**
+* Keep this in attr.xml file
+*<attr name="autoScaleTextViewStyle" format="reference" />
+*    <declare-styleable name="AutoScaleTextView">
+*        <attr name="minTextSize" format="dimension" />
+*    </declare-styleable>
+*
+*/
 public class AutoScaleTextView extends AppTextView
 {
 	private Paint textPaint;
